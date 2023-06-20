@@ -1,0 +1,220 @@
+@media screen and (max-width: 600px){
+
+    .nombre__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .desplazo{
+        display: none;
+    }
+
+    .presentacion{
+        width: auto;
+        text-align: center;
+
+    }
+
+    .mi__foto{
+        width: 10rem;
+        height: 13rem;
+    }
+
+    /* sobre mi */
+
+    .sobre__mi{
+        width: 100%;
+        text-align: center;
+        padding-left: .9rem;
+
+    }
+
+    .sobre__mi #titulo__sobre-mi{
+        margin-left: 0px;
+        margin-right: .8rem;
+    }
+
+    .sobre__mi .tsm__descripcion{
+        width: 90%;
+        margin-left: 0px;
+        margin-right: 0rem;
+    }
+    /* skills */
+    .titulo__skils{
+        margin-bottom: 1rem;
+    }
+
+    .container__padre-skills{
+        display: flex;
+        flex-wrap: wrap;
+        height: 26rem;
+    }
+
+    .container__skills{
+        margin-right: .5rem;
+    }
+
+
+    /* hobbies */
+    .container__padre-hobbies{
+        display: flex;
+        flex-wrap: wrap;
+        height: 26rem;
+    }
+
+    .container__hobbies{
+        margin-right: .5rem;
+    }
+
+    /* formacion academica */
+
+    #container__formacion-academica{
+        width: 100%;
+    }
+
+    .container__certificados-padre{
+        display: flex;
+        flex-wrap: wrap;
+        height: 55rem;
+    }
+
+    /* experiencia laboral */
+    #container__experiencia-laboral{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        /* height: 25rem; */
+        width: 100%;
+    }
+
+    .experiencia__laboral-tpa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    #container__experiencia-laboral .encriptador__img{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    /* contacto */
+
+    .telefono__img{
+        display: none;
+    }
+
+    #container__formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    #nombre{
+        width: auto;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+    }
+
+    #input__email{
+        width: auto;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+    }
+
+    #asunto{
+        width: auto;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+        max-height: 1.4rem;
+    }
+
+    #mensaje{
+        width: auto;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+    }
+
+    #boton__enviar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1.2rem;
+    }
+}
+
+/* ipad */
+
+@media screen and (max-width: 1024px){
+    /* sobre mi */
+
+    .sobre__mi{
+        width: 100%;
+    }
+
+    .sobre__mi #titulo__sobre-mi{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .sobre__mi .tsm__descripcion{
+        margin-left: 0px;
+    }
+
+    /* formacion academica */
+
+    .container__certificados-padre{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container__certificados{
+        margin-bottom: 2rem;
+    }
+
+    /* experiencia laboral */
+
+    .encriptador__img{
+        width: 30rem;
+    }
+
+    /* contacto */
+
+    .container__img-formulario{
+        display: none;
+    }
+
+    .descripcion__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nombre{
+        width: 95%;
+    }
+
+    #input__email{
+        width: 95%;
+    }
+
+    #asunto{
+        width: 95%;
+    }
+
+    #mensaje{
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .container__img-formulario{
+        display: block;
+    }
+}

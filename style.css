@@ -1,0 +1,448 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #ffffff;
+    height: 2.5rem;
+}
+
+.nombre__container{
+    align-items: center;
+    padding-top: 0.8%;
+}
+
+.nombre{
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.desplazo{
+    display: flex;
+}
+
+.lista__desplazo{
+    margin: .5rem;
+    display: block;
+    cursor: pointer;
+    color: #808080;
+}
+
+
+.lista__desplazo .lista__desplazo-links{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.lista__desplazo-links:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+
+/* Desde aqui comienza el header */
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.presentacion{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+
+.presentacion .nombre__presentacion{
+    margin-top: 1rem;
+}
+
+
+.links{
+    display: flex;
+    height: 1rem;
+    margin-top: 1rem;
+}
+
+.links__redes{
+    margin-right: .5rem;
+    color: #808080;
+}
+
+
+.mi__foto{
+    width: 20rem;
+    height: 23rem;
+    border-radius: 50%;
+    margin-top: .3rem;
+}
+
+/* section sobre mi */
+
+.sobre__mi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    font-family: 'Quicksand', sans-serif;
+    background: #F8F8FF;
+    padding-left: .5rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+/* problemas aquui */
+
+.sobre__mi #titulo__sobre-mi{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2rem 5rem 1rem;
+}
+
+.sobre__mi .tsm__descripcion{
+    width: 45rem;
+    font-size: 1rem;
+    margin-left: 5rem;
+}
+
+
+/* Skills */
+
+.skills{
+    width: 3rem;
+}
+
+#container__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+
+.titulo__skils{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+.container__padre-skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffffff;
+    height: 10rem;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container__skills{
+    border: 1px solid #F8F8F9;
+    border-radius: 5px;
+    width: 8rem;
+    height: 5rem;
+    padding-top: 1rem;
+    background: #F8F8FF;
+}
+
+/* hobbies */
+
+
+#container__titulo-hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+
+.titulo__hobies{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.hobbies{
+    width: 3rem;
+}
+
+.container__padre-hobbies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffffff;
+    height: 10rem;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container__hobbies{
+    border: 1px solid #F8F8F9;
+    border-radius: 5px;
+    width: 8rem;
+    height: 5rem;
+    padding-top: 1rem;
+    background: #F8F8FF;
+}
+
+
+/* formacion */
+
+#container__formacion-academica{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    background: #F8F8FF;
+    padding: 1rem 0 1rem 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.titulo__formacion-h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.alura{
+    width: 20rem;
+}
+
+.titulo__formacion-academica{
+    padding: .5rem 0 .5rem 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.parrafo__formacion-academica{
+    color: #808080;
+    font-size: .9rem;
+}
+
+/*  */
+
+.container__certificados-padre{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.certificado__img{
+    width: 20rem;
+}
+
+.certificado__fecha{
+    color: #808080;
+}
+
+/* experiencia laboral */
+
+.experiencia__laboral-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 2rem 0 0 0;
+}
+
+.titulo__experiencia-laboral{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#container__experiencia-laboral{
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    align-items: center;
+    padding: 5rem 0 5rem 0;
+    background: #ffffff;
+}
+
+.experiencia__laboral-tpa{
+    margin-right: 5rem;
+}
+
+.titulo__encriptador{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.encriptador__descripcion{
+    font-size: .9rem;
+    color: #808080;
+    margin: .3rem 0 1.5rem;
+}
+
+.bt__link{
+    border: 1px solid #000000;
+    border-radius: 3px;
+    padding: .5rem;
+    background: #F0FFFF;
+    transition: 40ms;
+}
+
+.bt__link:active{
+    padding: .4rem;
+}
+
+.encriptador__img{
+    width: 40rem;
+}
+
+/* formulario */
+
+#container__formulario{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    background: #F8F8FF;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 3rem;
+}
+
+.telefono__img{
+    width: 20rem;
+}
+
+.descripcion__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.descripcion__container .titulo__formulario{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 4rem 0 .5rem ;
+}
+
+.descripcion__container .descripcion__formulario{
+    padding: 0 0 .5rem;
+    color: #808080;
+}
+
+#nombre{
+    padding: 0 .2rem .3rem;
+    width: 25rem;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    outline: none;
+    background-color: #ffffff;
+    transition: border-bottom-color 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+#nombre:focus{
+    border-bottom-color:#0000FF ;
+}
+
+#input__email{
+    padding: 0 .2rem .3rem;
+    width: 25rem;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    outline: none;
+    background-color: #ffffff;
+    transition: border-bottom-color 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+#input__email:focus{
+    border-bottom-color:#0000FF ;
+}
+
+#asunto{
+    padding: 0 0 1.5rem .4rem;
+    width: 25rem;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    outline: none;
+    background-color: #ffffff;
+    transition: border-bottom-color 0.3s ease;
+    margin-bottom: 1rem;
+    max-height: 1rem;
+    overflow: auto;
+    resize: none;
+}
+
+#asunto:focus{
+    border-bottom-color:#0000FF ;
+}
+
+#mensaje{
+    padding: 0 0 6rem .4rem;
+    width: 25rem;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    outline: none;
+    background-color: #ffffff;
+    transition: border-bottom-color 0.3s ease;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+#mensaje:focus{
+    border-bottom-color:#0000FF ;
+}
+
+#boton__enviar{
+    width: 9rem;
+    height: 2rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #87CEFA;
+}
+
+#boton__enviar:hover{
+    cursor: pointer;
+}
+
+#boton__enviar:active{
+    padding: .6rem;
+}
+
+/* footer */
+
+.pie__pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 5rem;
+    background: #ffffff;
+}
+
+.titulo__footer{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.email__footer{
+    color: #808080;
+    margin-bottom: .4rem;
+}
+
+.email__footer:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.fecha__footer{
+    color: #808080;
+}
